@@ -5,6 +5,7 @@ description: "We are excited to announce that Ballista has been donated to the A
 date: 2021-04-12
 author: agrove
 categories: [application]
+tags: [application]
 ---
 <!--
 {% comment %}

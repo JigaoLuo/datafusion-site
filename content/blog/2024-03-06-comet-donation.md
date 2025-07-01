@@ -4,6 +4,7 @@ title: Announcing Apache Arrow DataFusion Comet
 date: 2024-03-06
 author: pmc
 categories: [release]
+tags: [release]
 ---
 <!--
 {% comment %}

@@ -4,6 +4,7 @@ title: Apache Arrow DataFusion 8.0.0 Release
 date: 2022-05-16
 author: pmc
 categories: [release]
+tags: [release]
 ---
 <!--
 {% comment %}

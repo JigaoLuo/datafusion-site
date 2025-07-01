@@ -4,6 +4,7 @@ title: Using Ordering for Better Plans in Apache DataFusion
 date: 2025-03-11
 author: Mustafa Akur, Andrew Lamb
 categories: [tutorial]
+tags: [tutorial]
 ---
 
 <!--

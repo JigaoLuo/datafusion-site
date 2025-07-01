@@ -5,6 +5,7 @@ description: "We are excited to announce that DataFusion has been donated to the
 date: 2019-02-04
 author: agrove
 categories: [application]
+tags: [application]
 ---
 <!--
 {% comment %}

@@ -4,6 +4,7 @@ title: Apache DataFusion is now the fastest single node engine for querying Apac
 date: 2024-11-18
 author: Andrew Lamb, Staff Engineer at InfluxData
 categories: [core, performance]
+tags: [core, performance]
 ---
 
 <!--

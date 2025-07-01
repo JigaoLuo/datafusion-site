@@ -4,6 +4,7 @@ title: Using Rust async for Query Execution and Cancelling Long-Running Queries
 date: 2025-06-30
 author: Pepijn Van Eeckhoudt
 categories: [features]
+tags: [features]
 ---
 <!--
 {% comment %}

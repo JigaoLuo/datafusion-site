@@ -4,6 +4,7 @@ title: Apache DataFusion Comet 0.8.0 Release
 date: 2025-05-06
 author: pmc
 categories: [subprojects]
+tags: [subprojects]
 ---
 
 <!--

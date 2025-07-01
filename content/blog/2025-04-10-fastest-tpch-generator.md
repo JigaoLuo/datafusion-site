@@ -4,6 +4,7 @@ title: tpchgen-rs World’s fastest open source TPC-H data generator, written in
 date: 2025-04-10
 author: Andrew Lamb, Achraf B, and Sean Smith
 categories: [performance]
+tags: [performance]
 ---
 
 <!--

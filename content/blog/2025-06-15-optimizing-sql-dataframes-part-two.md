@@ -4,6 +4,7 @@ title: Optimizing SQL (and DataFrames) in DataFusion, Part 2: Optimizers in Apac
 date: 2025-06-15
 author: alamb, akurmustafa
 categories: [core]
+tags: [core]
 ---
 
 <!--
