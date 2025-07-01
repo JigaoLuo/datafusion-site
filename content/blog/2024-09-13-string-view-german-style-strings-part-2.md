@@ -4,6 +4,7 @@ title: Using StringView / German Style Strings to make Queries Faster: Part 2 - 
 date: 2024-09-13
 author: Xiangpeng Hao, Andrew Lamb
 categories: [performance]
+tags: [performance]
 ---
 
 <!--

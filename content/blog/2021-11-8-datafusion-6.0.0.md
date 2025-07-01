@@ -4,6 +4,7 @@ title: Apache Arrow DataFusion 6.0.0 Release
 date: 2021-11-19
 author: pmc
 categories: [release]
+tags: [release]
 ---
 <!--
 {% comment %}

@@ -4,6 +4,7 @@ title: Apache DataFusion Ballista 43.0.0 Released
 date: 2025-02-02
 author: milenkovicm
 categories: [release]
+tags: [release]
 ---
 <!--
 {% comment %}

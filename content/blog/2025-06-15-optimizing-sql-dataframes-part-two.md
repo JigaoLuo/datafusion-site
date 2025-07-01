@@ -4,6 +4,7 @@ title: Optimizing SQL (and DataFrames) in DataFusion, Part 2: Optimizers in Apac
 date: 2025-06-15
 author: alamb, akurmustafa
 categories: [core]
+tags: [core]
 ---
 
 <!--
@@ -369,7 +370,7 @@ and statistics are commonly stored in analytic file formats. For example, the
 
 [Metadata]: https://docs.rs/parquet/latest/parquet/file/metadata/index.html
 
-<img src="/blog/images/optimizing-sql-dataframes/using-statistics.png" width="80%" class="img-responsive" alt="Fig 7: Using Statistics."/>
+<img src="/blog/images/optimizing-sql_dataframes/using-statistics.png" width="80%" class="img-responsive" alt="Fig 7: Using Statistics."/>
 
 **Figure 7: **When the aggregation result is already stored in the statistics,
 the query can be evaluated using the values from statistics without looking at

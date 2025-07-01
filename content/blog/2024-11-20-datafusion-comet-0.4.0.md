@@ -4,6 +4,7 @@ title: Apache DataFusion Comet 0.4.0 Release
 date: 2024-11-20
 author: pmc
 categories: [subprojects]
+tags: [subprojects]
 ---
 
 <!--

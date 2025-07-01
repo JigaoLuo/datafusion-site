@@ -4,6 +4,7 @@ title: Announcing Apache Arrow DataFusion Comet
 date: 2024-03-06
 author: pmc
 categories: [release]
+tags: [release]
 ---
 <!--
 {% comment %}
@@ -87,4 +88,4 @@ Before then, here are some ways to get involved:
 [mailing list discussion]: https://lists.apache.org/thread/0q1rb11jtpopc7vt1ffdzro0omblsh0s
 [roadmap]: https://github.com/apache/arrow-datafusion-comet/issues/19
 
- 
+

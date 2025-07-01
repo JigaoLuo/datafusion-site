@@ -4,6 +4,7 @@ title: Apache DataFusion Python 46.0.0 Released
 date: 2025-03-30
 author: timsaucer
 categories: [release]
+tags: [release]
 ---
 <!--
 {% comment %}

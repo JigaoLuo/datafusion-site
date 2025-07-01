@@ -4,6 +4,7 @@ title: Announcing Apache Arrow DataFusion is now Apache DataFusion
 date: 2024-05-07
 author: pmc
 categories: [subprojects]
+tags: [subprojects]
 ---
 
 <!--

@@ -4,6 +4,7 @@ title: Optimizing SQL (and DataFrames) in DataFusion, Part 1: Query Optimization
 date: 2025-06-15
 author: alamb, akurmustafa
 categories: [core]
+tags: [core]
 ---
 
 <!--

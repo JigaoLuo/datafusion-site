@@ -4,6 +4,7 @@ title: Apache DataFusion Comet 0.7.0 Release
 date: 2025-03-20
 author: pmc
 categories: [subprojects]
+tags: [subprojects]
 ---
 
 <!--

@@ -4,6 +4,7 @@ title: Comparing approaches to User Defined Functions in Apache DataFusion using
 date: 2024-11-19
 author: timsaucer
 categories: [tutorial]
+tags: [tutorial]
 ---
 
 <!--
