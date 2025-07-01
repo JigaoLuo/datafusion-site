@@ -3,7 +3,7 @@ import datetime
 SITENAME = 'Apache DataFusion Blog'
 SITEDESC = 'The official new and blog for the Apache DataFusion project'
 SITEDOMAIN = 'datafusion.apache.org'
-SITEURL = 'https://datafusion.apache.org/blog'
+SITEURL = '/blog'
 SITELOGO = 'https://datafusion.apache.org/blog/favicon.ico'
 SITEREPOSITORY = 'https://github.com/apache/datafusion-site/blob/main/content/'
 CURRENTYEAR = datetime.date.today().year
@@ -16,7 +16,7 @@ PLUGIN_PATHS = [ 'plugins',  ]
 # If the website uses any *.ezmd files, include the 'asfreader' plugin
 # PLUGINS = [ 'toc', 'gfm', 'asfgenid',  ]
 # PLUGINS = ['asfgenid', 'asfdata', 'pelican-gfm', 'asfreader', 'sitemap']
-PLUGINS = ['asfgenid', 'extract_date_from_filename']
+PLUGINS = ['asfgenid', 'extract_date_from_filename', 'tag_cloud', 'tag_processor']
 # All content is located at '.' (aka content/ )
 PAGE_PATHS = [ 'pages' ]
 STATIC_PATHS = [ '.',  ]
@@ -31,7 +31,9 @@ PAGE_TRANSLATION_ID = None
 # N.B. These features are currently unsupported, see https://github.com/apache/infrastructure-pelican/issues/49
 FEED_ALL_ATOM = None
 INDEX_SAVE_AS = ''
-TAGS_SAVE_AS = ''
+tags_save_as = 'tags.html'
+tag_url = 'tag/{slug}.html'
+tag_save_as = 'tag/{slug}.html'
 CATEGORIES_SAVE_AS = ''
 AUTHORS_SAVE_AS = ''
 ARCHIVES_SAVE_AS = ''
@@ -62,6 +64,12 @@ ASF_GENID = {
 # Configure ignore file and directory basenames (paths not checked)
 # blogs/README.md is not intended for publication
 IGNORE_FILES = [ 'theme', 'README.md' ]
+
+# Tag cloud settings
+TAG_CLOUD_STEPS = 4  # Number of different tag sizes
+TAG_CLOUD_MAX_ITEMS = 100  # Maximum number of tags to show
+TAG_CLOUD_SORTING = 'size-rev'  # Sort by size, largest first
+TAG_CLOUD_BADGE = False  # Hide the number of posts next to each tag
 
 FEED_RSS = "feed.xml"
 
