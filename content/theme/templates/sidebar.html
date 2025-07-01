@@ -4,11 +4,13 @@
             <i class="icon-tags icon-large" style="color: #007bff; margin-right: 8px;"></i> Blog Tags
         </h4>
     </li>
-    {% for tag in tag_cloud %}
-    <li class="tag-{{ tag.1 }}" style="margin-bottom: 10px; display: block;">
-        <a href="{{ SITEURL }}/{{ tag.0.url }}" style="text-decoration: none; color: #007bff; font-size: 14px;">
-            <i class="icon-tag icon-large" style="margin-right: 8px; color: #6c757d;"></i>{{ tag.0 }}
-        </a>
-    </li>
-    {% endfor %}
+    <ul class="tag-list">
+        {% for tag in tag_cloud %}
+        <li class="tag-item" style="margin-bottom: 10px;">
+            <a href="{{ SITEURL }}/{{ tag.0.url }}" style="text-decoration: none; color: #007bff; font-size: 14px; display: block;">
+                <i class="icon-tag icon-large" style="margin-right: 8px; color: #6c757d;"></i>{{ tag.0 }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
 </ul>
