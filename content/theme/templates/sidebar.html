@@ -1,0 +1,14 @@
+<ul class="nav nav-list" style="background-color: #f8f9fa; padding: 15px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+    <li class="nav-header" style="margin-bottom: 15px;">
+        <h4 style="color: #343a40; font-weight: bold; text-transform: none; letter-spacing: 1px;">
+            <i class="icon-tags icon-large" style="color: #007bff; margin-right: 8px;"></i> Blog Tags
+        </h4>
+    </li>
+    {% for tag in tag_cloud %}
+    <li class="tag-{{ tag.1 }}" style="margin-bottom: 10px; display: block;">
+        <a href="{{ SITEURL }}/{{ tag.0.url }}" style="text-decoration: none; color: #007bff; font-size: 14px;">
+            <i class="icon-tag icon-large" style="margin-right: 8px; color: #6c757d;"></i>{{ tag.0 }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>
