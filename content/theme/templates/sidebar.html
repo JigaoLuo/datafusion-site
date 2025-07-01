@@ -7,7 +7,7 @@
     <ul class="tag-list">
         {% for tag in tag_cloud %}
         <li class="tag-item" style="margin-bottom: 10px;">
-            <a href="{{ SITEURL }}/{{ tag.0.url }}" style="text-decoration: none; color: #007bff; font-size: 14px; display: block;">
+            <a href="{{ SITEURL }}/tag/{{ tag.0.slug }}.html" style="text-decoration: none; color: #007bff; font-size: 14px; display: block;">
                 <i class="icon-tag icon-large" style="margin-right: 8px; color: #6c757d;"></i>{{ tag.0 }}
             </a>
         </li>
