@@ -1,0 +1,13 @@
+<div id="contents">
+    <div class="bg-white p-5 rounded">
+        <h1>Posts Tagged: {{ tag }}</h1>
+        <ul>
+            {% for article in articles %}
+            <li>
+                <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+                <p>{{ article.summary }}</p>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

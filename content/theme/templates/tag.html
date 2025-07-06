@@ -1,0 +1,20 @@
+<head>
+    <link rel="stylesheet" href="{{ SITEURL }}/css/app.css">
+    <link rel="stylesheet" href="{{ SITEURL }}/css/blog_index.css">
+    <link rel="stylesheet" href="{{ SITEURL }}/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ SITEURL }}/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Posts Tagged: {{ tag }}</h1>
+        <div class="row">
+            {% for article in articles %}
+            <div class="col-md-12">
+                <h2><a href="{{ article.url }}">{{ article.title }}</a></h2>
+                <p>{{ article.summary }}</p>
+                <p><small>HHHH Posted on {{ article.date }}</small></p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>

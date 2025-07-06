@@ -1,7 +1,13 @@
+<head>
+    <link rel="stylesheet" href="{{ SITEURL }}/css/app.css">
+    <link rel="stylesheet" href="{{ SITEURL }}/css/blog_index.css">
+    <link rel="stylesheet" href="{{ SITEURL }}/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ SITEURL }}/css/font-awesome.min.css">
+</head>
 <!-- page contents -->
 <div id="contents">
     <div class="bg-white p-5 rounded">
-        <div class="col-sm-8 mx-auto">
+        <div class="col-sm-9">
           <h1>
             {% if article %}
               {{ article.title }}
@@ -12,12 +18,7 @@
           {% if article %}
               <p>Posted on: {{ article.locale_date }} by {{ article.author }}</p>
               {% if article.tags %}
-                <p>Tags:</p>
-                <ul>
-                {% for tag in article.tags %}
-                    <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a></li>
-                {% endfor %}
-                </ul>
+                <p>[Blog Tags]: {% for tag in article.tags %}<a href="{{ SITEURL }}/{{ tag.url }}">{{ tag|title }}</a>{% if not loop.index == article.tags|length %}, {% endif %}{% endfor %}</p>
               {% endif %}
               {{ article.content }}
             {% else %}

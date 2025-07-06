@@ -1,0 +1,20 @@
+<head>
+    <link rel="stylesheet" href="{{ SITEURL }}/css/app.css">
+    <link rel="stylesheet" href="{{ SITEURL }}/css/blog_index.css">
+    <link rel="stylesheet" href="{{ SITEURL }}/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ SITEURL }}/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">All Tags</h1>
+        <div class="row">
+            <ul class="list-group">
+                {% for tag in tags %}
+                <li class="list-group-item">
+                    <a href="{{ SITEURL }}/tag/{{ tag.slug }}.html">{{ tag.name }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</body>
